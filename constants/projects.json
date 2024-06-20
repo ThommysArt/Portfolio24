@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Linger",
+        "role": "Scrum Master",
+        "description": "Developed Linger a language learning web app with a REST architecture. Used Express.js for the backend API and Next.js for the frontend. The app features interactive quizzes, and lessons. Currently hosted and under testing and content management. Ensured robust data handling, responsive design, and scalability. Technologies: Express.js, Next.js, Postgresql. Methodology: SCRUM",
+        "images": [
+            { "url": "" },
+            { "url": "" },
+            { "url": "" },
+            { "url": "" },
+            { "url": "" },
+            { "url": "" }
+        ],
+        "completed": true
+    },
+    {
+        "title": "Sneaker Dealz",
+        "role": "Scrum Master",
+        "description": "Developed Sneaker Dealz, an e-commerce site for selling sneakers using Next.js for fast, SEO-optimized performance. Designed a user-friendly interface with Shadcn-UI and Figma. Fully hosted and soon accepting PayPal and credit card payments. Focused on scalability, performance, and seamless navigation. Technologies: Next.js, Shadcn-UI, Figma. Methodoly: SCRUM",
+        "images": [
+            { "url": "" },
+            { "url": "" },
+            { "url": "" },
+            { "url": "" },
+            { "url": "" },
+            { "url": "" }
+        ],
+        "completed": true
+    },
+    {
+        "title": "Thommy Store",
+        "role": "Sole Entrepreneur",
+        "description": "Developed Thommy's Store, an e-commerce site for tech products, using Django REST for the backend and ReactJS for the frontend. Created a robust, scalable platform supporting various product categories. Emphasized seamless user experience. Utilized AGILE methodology. Technologies: Django REST, ReactJS",
+        "images": [
+            { "url": "" },
+            { "url": "" },
+            { "url": "" },
+            { "url": "" },
+            { "url": "" },
+            { "url": "" }
+        ],
+        "completed": false
+    },
+    {
+        "title": "Edify",
+        "role": "Scrum Master",
+        "description": "Developing Edify, a media entertainment platform focused on gospel content in audioand video formats. Designed to be fully cross-platform, utilizing Next.js for both the frontend and backend. Docker is used for optimized deployment across mobile, desktop, and web. The project aims to deliver a seamless and high-performance user experience. Technologies: Next.js, Tailwind.css Docker. Methodoly: SCRUM",
+        "images": null,
+        "completed": false
+    },
+    {
+        "title": "Yummy-Recipe",
+        "role": "Sole Entrepreneur",
+        "description": "A Recipe website meant to collect from a few APIs to help people get more skilled at cooking. Still in development, it is meant to use Next.js as full stack development framework. Technologies: Next.js, Framer.motion, Tailwind.css, Acernity-ui. Methodoly: SCRUM.",
+        "images": null,
+        "completed": false
+    }
+    
+]

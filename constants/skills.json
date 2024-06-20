@@ -1,0 +1,31 @@
+[
+    { "languages" : [
+        { "name": "JavaScript", "image": "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" },
+        { "name": "TypeScript", "image": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
+        { "name": "Python", "image": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000" },
+        { "name": "Html", "image": "https://img.icons8.com/?size=100&id=v8RpPQUwv0N8&format=png&color=000000" },
+        { "name": "CSS", "image": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000" },
+        { "name": "SQL", "image": "https://img.icons8.com/?size=100&id=hKw7Mn8TNTuz&format=png&color=000000" }
+    ]},
+    { "frontend" : [
+        { "name": "NextJS", "image": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
+        { "name": "ReactJS", "image": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" },
+        { "name": "React Native", "image": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" },
+        { "name": "TailwindCSS", "image": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
+        { "name": "Framer Motion", "image": "https://img.icons8.com/?size=100&id=WSDqDtE5fGK0&format=png&color=000000" },
+        { "name": "Shadcn-ui", "image": "https://www.google.com/imgres?q=shadcn%20icon&imgurl=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F139895814%3Fs%3D280%26v%3D4&imgrefurl=https%3A%2F%2Fgithub.com%2Fshadcn-ui&docid=FOFSYHaAVb1kvM&tbnid=JFTWVSq8ysETfM&vet=12ahUKEwil35XX8uiGAxVYFFkFHX-GClAQM3oECGAQAA..i&w=280&h=280&hcb=2&ved=2ahUKEwil35XX8uiGAxVYFFkFHX-GClAQM3oECGAQAA" },
+        { "name": "Acernity-ui", "image": "https://www.google.com/imgres?q=acernity-ui%20icon&imgurl=https%3A%2F%2Fui.aceternity.com%2Flogo.png&imgrefurl=https%3A%2F%2Fui.aceternity.com%2F&docid=RJqXyjtQj2dmZM&tbnid=06W5p-ArLXmmUM&vet=12ahUKEwit3ujx8uiGAxWVFFkFHb_SBGYQM3oECBsQAA..i&w=276&h=276&hcb=2&ved=2ahUKEwit3ujx8uiGAxWVFFkFHb_SBGYQM3oECBsQAA" }
+    ]},
+    { "backend" : [
+        { "name": "NextJS", "image": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
+        { "name": "Django REST", "image": "https://img.icons8.com/?size=100&id=LPmcJ9e0FU7K&format=png&color=000000" },
+        { "name": "Express JS", "image": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" },
+        { "name": "NodeJS", "image": "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" }
+    ]},
+    { "engineering" : [
+        { "name": "Software Design", "image": "https://img.icons8.com/?size=100&id=42907&format=png&color=000000" },
+        { "name": "Cloud Computing", "image": "https://img.icons8.com/?size=100&id=4M86yFQrNLMF&format=png&color=000000" },
+        { "name": "SaaS Development", "image": "https://img.icons8.com/?size=100&id=NaQGFHVLR7a8&format=png&color=000000" },
+        { "name": "UI/UX Design", "image": "https://img.icons8.com/?size=100&id=102562&format=png&color=000000" }
+    ]}
+]
