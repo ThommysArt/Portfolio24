@@ -40,13 +40,13 @@ export const Tabs = ({
     <>
       <div
         className={cn(
-          "flex flex-row items-center justify-start [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
+          "flex flex-row items-center justify-start [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-[300px] md:max-w-full",
           containerClassName
         )}
       >
         {propTabs.map((tab, idx) => (
           <button
-            key={tab.title}
+            key={tab.title}max-w-full 
             onClick={() => {
               moveSelectedTabToTop(idx);
             }}
@@ -62,13 +62,13 @@ export const Tabs = ({
                 layoutId="clickedbutton"
                 transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
                 className={cn(
-                  "absolute inset-0 bg-gray-200 dark:bg-zinc-800 rounded-full ",
+                  "absolute inset-0 bg-slate-200 dark:bg-slate-800 rounded-full ",
                   activeTabClassName
                 )}
               />
             )}
 
-            <span className="relative block text-black dark:text-white">
+            <span className="relative block text-black dark:text-white text-[10px] md:text-md my-2">
               {tab.title}
             </span>
           </button>

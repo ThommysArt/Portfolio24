@@ -13,8 +13,8 @@
         { "name": "React Native", "image": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" },
         { "name": "TailwindCSS", "image": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
         { "name": "Framer Motion", "image": "https://img.icons8.com/?size=100&id=WSDqDtE5fGK0&format=png&color=000000" },
-        { "name": "Shadcn-ui", "image": "https://www.google.com/imgres?q=shadcn%20icon&imgurl=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F139895814%3Fs%3D280%26v%3D4&imgrefurl=https%3A%2F%2Fgithub.com%2Fshadcn-ui&docid=FOFSYHaAVb1kvM&tbnid=JFTWVSq8ysETfM&vet=12ahUKEwil35XX8uiGAxVYFFkFHX-GClAQM3oECGAQAA..i&w=280&h=280&hcb=2&ved=2ahUKEwil35XX8uiGAxVYFFkFHX-GClAQM3oECGAQAA" },
-        { "name": "Acernity-ui", "image": "https://www.google.com/imgres?q=acernity-ui%20icon&imgurl=https%3A%2F%2Fui.aceternity.com%2Flogo.png&imgrefurl=https%3A%2F%2Fui.aceternity.com%2F&docid=RJqXyjtQj2dmZM&tbnid=06W5p-ArLXmmUM&vet=12ahUKEwit3ujx8uiGAxWVFFkFHb_SBGYQM3oECBsQAA..i&w=276&h=276&hcb=2&ved=2ahUKEwit3ujx8uiGAxWVFFkFHb_SBGYQM3oECBsQAA" }
+        { "name": "Shadcn-ui", "image": "https://img.icons8.com/?size=100&id=102562&format=png&color=000000" },
+        { "name": "Acernity-ui", "image": "https://img.icons8.com/?size=100&id=102562&format=png&color=000000" }
     ]},
     { "backend" : [
         { "name": "NextJS", "image": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
