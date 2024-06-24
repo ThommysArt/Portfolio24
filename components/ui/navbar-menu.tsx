@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import { Badge } from "./badge";
 
 const transition = {
   type: "spring",
@@ -70,7 +71,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full border  dark:bg-slate-950 dark:border-white/[0.2] bg-slate-50 shadow-input flex justify-center items-center space-x-6 px-8 py-4 "
+      className="relative rounded-full border  dark:bg-slate-950 dark:border-white/[0.2] bg-slate-50 shadow-input flex justify-center items-center space-x-2 md:space-x-6 px-8 py-4 "
     >
       {children}
     </nav>
@@ -82,11 +83,13 @@ export const ProductItem = ({
   description,
   href,
   src,
+  role
 }: {
   title: string;
   description: string;
   href: string;
   src: string;
+  role: string
 }) => {
   return (
     <Link href={href} className="flex space-x-2">
@@ -101,7 +104,8 @@ export const ProductItem = ({
         <h4 className="text-xl font-bold mb-1">
           {title}
         </h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300">
+        <Badge>{role}</Badge>
+        <p className="text-neutral-700 text-[10px] max-w-[10rem] dark:text-neutral-400">
           {description}
         </p>
       </div>

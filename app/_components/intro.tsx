@@ -1,12 +1,11 @@
 import { TextGenerateEffect } from "@/components/ui/text-generated";
-import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const intro_text = "A Dedicated and Skilled Computer Science Practitioner experienced in web design, SaaS development, and full stack application development."
 
 const IntroSection = () => {
     return (
-    <section className="container py-8 md:py-24 w-screen p-4">
+    <section className="container py-8 md:py-24 p-4">
         <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-5">
           <div className="row-span-3 md:col-span-3 max-w-4xl p-4">
             <h3 className="relative z-10 text-2xl md:text-4xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-slate-200 to-slate-600  text-center font-sans font-bold">
