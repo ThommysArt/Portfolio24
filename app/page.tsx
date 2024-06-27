@@ -9,7 +9,7 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 export default function Home() {
   return (
     <div className="flex flex-col overscroll-y-auto px-4 md:px-10">
-      <div className="container h-[1400px] md:h-[1800px] lg:h-[1300px]"></div>
+      <div className="container h-[1600px] md:h-[2000px] lg:h-[1500px]"></div>
       <IntroSection />
       <Separator className="my-4" />
       <SkillSection />

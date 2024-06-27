@@ -8,7 +8,7 @@ export default async function ProjectsPage () {
     const projects = await get_projects()
     return (
         <div className="flex flex-col overscroll-y-auto mx-5 md:mx-10">
-            <div className="container h-[3400px] md:h-[4000px] lg:h-[3900px]"></div>
+            <div className="container h-[3600px] md:h-[4200px] lg:h-[4100px]"></div>
             <div className="grid grid-flow-row gap-10 md:gap-20 mb-20">
                 {projects.map((project, index) => (
                     <ProjectContent project={project} />

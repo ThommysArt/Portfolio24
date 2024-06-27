@@ -7,6 +7,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import Navbar from "@/components/nav-bar";
 import { get_projects } from "@/actions/json-parse";
 import { Toaster } from "@/components/ui/toaster";
+import Footer from "./_components/footer";
 
 const fontSans = FontSans({
   subsets: ["cyrillic"],
@@ -43,6 +44,7 @@ export default async function RootLayout({
           <div className="h-[40rem] w-screen rounded-md relative flex flex-col items-center justify-center antialiased">
             <Navbar className="top-5 bg-transparent backdrop-blur-sm" projects={projects} />
             {children}
+            <Footer />
             <BackgroundBeams />
           </div>
           <Toaster />
