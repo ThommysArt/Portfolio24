@@ -14,16 +14,15 @@ export default function Home() {
       <Separator className="my-4" />
       <SkillSection />
       <Separator className="my-4" />
-      <div className="m-10 md:m-20 mt-[500px] md:mt-[500px] lg:mt-20 flex flex-row gap-5 items-center">
-        <p>Not convinced, Let's look deeper into my {" "}
-          <LinkPreview
+      <div className="m-10 md:m-20 mt-[500px] md:mt-[500px] lg:mt-20 flex flex-row gap-2 items-center">
+        <p>Not convinced, Let's look deeper into my</p>   
+        <LinkPreview
             url="/projects"
-            className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
+            className="flex flex-row items-center gap-1 font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
             >
               Projects
+              <ArrowRightIcon />
           </LinkPreview>
-        </p>
-        <ArrowRightIcon />
       </div>
     </div>
   );

@@ -73,7 +73,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-[300px] md:max-w-[680px] lg:max-w-[1100px] overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 max-w-[320px] md:max-w-[480px] lg:max-w-[820px] overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
@@ -96,7 +96,7 @@ export const InfiniteMovingCards = ({
                 alt="Card Image"
                 height={250}
                 width={item.large?350:125}
-                className="object-cover rounded"
+                className="object-cover rounded align-center"
               />
             </div>
           </li>

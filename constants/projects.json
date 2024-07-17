@@ -52,7 +52,7 @@
         "title": "Thommy Store",
         "role": "Sole Entrepreneur",
         "href": "",
-        "gitrep": "",
+        "gitrep": "https://github.com/ThommysArt/Tech-Store-Django-Rest-React",
         "description": "Developed Thommy's Store, an e-commerce site for tech products, using Django REST for the backend and ReactJS for the frontend. Created a robust, scalable platform supporting various product categories. Emphasized seamless user experience. Utilized AGILE methodology. Technologies: Django REST, ReactJS",
         "images": [
             { "url": "/websites/thommy-store/shot1.png", "large": true },
@@ -79,6 +79,23 @@
             { "url": "/websites/nester/shot6.png", "large": true }
         ],
         "completed": false
+    },
+    {
+        "title": "One4All",
+        "role": "Full Stack Developer",
+        "href": "https://oneforall-j2t6.onrender.com",
+        "gitrep": "https://github.com/ThommysArt/OneForAll",
+        "description": "Developing Nester, a property rental service focused on housing rentals. It is a full SaaS product still in development following an extended PERN stack with NextJS added for SEO optimization and SSR. Technologies: Next.js, Acernity-ui, React.js, Express.js, Postgrsql.  Methodoly: SCRUM",
+        "images": [
+            { "url": "/websites/one4all/pic1.png", "large": false },
+            { "url": "/websites/one4all/pic2.png", "large": false },
+            { "url": "/websites/one4all/pic3.png", "large": false },
+            { "url": "/websites/one4all/pic4.png", "large": false },
+            { "url": "/websites/one4all/pic5.png", "large": true },
+            { "url": "/websites/one4all/pic6.png", "large": true },
+            { "url": "/websites/one4all/pic7.png", "large": true },
+            { "url": "/websites/one4all/pic8.png", "large": true }
+        ],
+        "completed": false
     }
-    
 ]

@@ -12,7 +12,6 @@ export default async function ProjectLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const projects = await get_projects()
   return (
     <>{children}</>
   );
