@@ -11,6 +11,7 @@ export type Project = {
     description: string;
     images: {url:string,large:boolean}[];
     completed: boolean;
+    skills: {name:string,url:string}[];
   }
 
 

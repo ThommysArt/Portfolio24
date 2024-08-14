@@ -1,26 +1,5 @@
 [
     {
-        "title": "Linger",
-        "role": "Scrum Master",
-        "href": "https://linger-client.onrender.com",
-        "gitrep": "https://github.com/ThommysArt/Linger---ExpressJS-NextJS",
-        "description": "Developed Linger a language learning web app with a REST architecture. Used Express.js for the backend API and Next.js for the frontend. The app features interactive quizzes, and lessons. Currently hosted and under testing and content management. Ensured robust data handling, responsive design, and scalability. Technologies: Express.js, Next.js, Postgresql. Methodology: SCRUM",
-        "images": [
-            { "url": "/websites/linger/shot1.png", "large": false },
-            { "url": "/websites/linger/shot2.png", "large": false },
-            { "url": "/websites/linger/shot3.png", "large": true },
-            { "url": "/websites/linger/shot4.png", "large": false },
-            { "url": "/websites/linger/shot5.png", "large": false },
-            { "url": "/websites/linger/shot6.png", "large": true },
-            { "url": "/websites/linger/shot7.png", "large": true },
-            { "url": "/websites/linger/shot8.png", "large": true },
-            { "url": "/websites/linger/shot9.png", "large": false },
-            { "url": "/websites/linger/shot10.png", "large": false },
-            { "url": "/websites/linger/shot11.png", "large": true }
-        ],
-        "completed": true
-    },
-    {
         "title": "Sneaker Dealz",
         "role": "Scrum Master",
         "href": "https://sneaker-deals-237.onrender.com",
@@ -46,6 +25,42 @@
             { "url": "/websites/sneaker-deals/shot17.png", "large": false },
             { "url": "/websites/sneaker-deals/shot18.png", "large": true }
         ],
+        "skills": [
+            { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
+            { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
+            { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
+            { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
+            { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" }
+        ],
+        "completed": true
+    },
+    {
+        "title": "Linger",
+        "role": "Scrum Master",
+        "href": "https://linger-client.vercel.app",
+        "gitrep": "https://github.com/ThommysArt/Linger---ExpressJS-NextJS",
+        "description": "Developed Linger a language learning web app with a REST architecture. Used Express.js for the backend API and Next.js for the frontend. The app features interactive quizzes, and lessons. Currently hosted and under testing and content management. Ensured robust data handling, responsive design, and scalability. Technologies: Express.js, Next.js, Postgresql. Methodology: SCRUM",
+        "images": [
+            { "url": "/websites/linger/shot1.png", "large": false },
+            { "url": "/websites/linger/shot2.png", "large": false },
+            { "url": "/websites/linger/shot3.png", "large": true },
+            { "url": "/websites/linger/shot4.png", "large": false },
+            { "url": "/websites/linger/shot5.png", "large": false },
+            { "url": "/websites/linger/shot6.png", "large": true },
+            { "url": "/websites/linger/shot7.png", "large": true },
+            { "url": "/websites/linger/shot8.png", "large": true },
+            { "url": "/websites/linger/shot9.png", "large": false },
+            { "url": "/websites/linger/shot10.png", "large": false },
+            { "url": "/websites/linger/shot11.png", "large": true }
+        ],
+        "skills": [
+            { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
+            { "name": "Express.js", "url": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" },
+            { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
+            { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
+            { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
+            { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" }
+        ],
         "completed": true
     },
     {
@@ -61,6 +76,12 @@
             { "url": "/websites/thommy-store/shot4.png", "large": true },
             { "url": "/websites/thommy-store/shot5.png", "large": true },
             { "url": "/websites/thommy-store/shot6.png", "large": true }
+        ],
+        "skills": [
+            { "name": "React.js", "url": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" },
+            { "name": "Django REST", "url": "https://img.icons8.com/?size=100&id=LPmcJ9e0FU7K&format=png&color=000000" },
+            { "name": "Javascript", "url": "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" },
+            { "name": "CSS", "url": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000" }
         ],
         "completed": false
     },
@@ -78,23 +99,12 @@
             { "url": "/websites/nester/shot5.png", "large": false },
             { "url": "/websites/nester/shot6.png", "large": true }
         ],
-        "completed": false
-    },
-    {
-        "title": "One4All",
-        "role": "Full Stack Developer",
-        "href": "https://oneforall-j2t6.onrender.com",
-        "gitrep": "https://github.com/ThommysArt/OneForAll",
-        "description": "Developing Nester, a property rental service focused on housing rentals. It is a full SaaS product still in development following an extended PERN stack with NextJS added for SEO optimization and SSR. Technologies: Next.js, Acernity-ui, React.js, Express.js, Postgrsql.  Methodoly: SCRUM",
-        "images": [
-            { "url": "/websites/one4all/pic1.png", "large": false },
-            { "url": "/websites/one4all/pic2.png", "large": false },
-            { "url": "/websites/one4all/pic3.png", "large": false },
-            { "url": "/websites/one4all/pic4.png", "large": false },
-            { "url": "/websites/one4all/pic5.png", "large": true },
-            { "url": "/websites/one4all/pic6.png", "large": true },
-            { "url": "/websites/one4all/pic7.png", "large": true },
-            { "url": "/websites/one4all/pic8.png", "large": true }
+        "skills": [
+            { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
+            { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
+            { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
+            { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
+            { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" }
         ],
         "completed": false
     }

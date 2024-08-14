@@ -40,7 +40,7 @@ export const Tabs = ({
     <>
       <div
         className={cn(
-          "flex flex-row items-center justify-start [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-[300px] md:max-w-full",
+          "flex flex-row items-center justify-center [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar min-h-14 md:max-w-full",
           containerClassName
         )}
       >
@@ -68,7 +68,10 @@ export const Tabs = ({
               />
             )}
 
-            <span className="relative block text-black dark:text-white text-[10px] md:text-md my-2">
+            <span className={cn(
+              "relative block text-black dark:text-white text-[10px] md:text-md my-2",
+              active.value === tab.value && "text-blue-600"
+            )}>
               {tab.title}
             </span>
           </button>

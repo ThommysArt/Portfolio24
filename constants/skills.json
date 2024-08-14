@@ -5,7 +5,7 @@
         { "name": "Python", "image": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000" },
         { "name": "Html", "image": "https://img.icons8.com/?size=100&id=v8RpPQUwv0N8&format=png&color=000000" },
         { "name": "CSS", "image": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000" },
-        { "name": "SQL", "image": "https://img.icons8.com/?size=100&id=hKw7Mn8TNTuz&format=png&color=000000" }
+        { "name": "PostgreSQL", "image": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" }
     ]},
     { "frontend" : [
         { "name": "NextJS", "image": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },

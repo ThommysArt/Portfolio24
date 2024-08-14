@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Ubuntu as FontSans } from "next/font/google"
+import { Inter as FontSans } from "next/font/google"
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
@@ -8,11 +8,12 @@ import Navbar from "@/components/nav-bar";
 import { get_projects } from "@/actions/json-parse";
 import { Toaster } from "@/components/ui/toaster";
 import Footer from "./_components/footer";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 const fontSans = FontSans({
-  subsets: ["cyrillic"],
+  subsets: ["latin"],
   variable: "--font-sans",
-  weight: "400"
 })
 
 export const metadata: Metadata = {
@@ -32,22 +33,24 @@ export default async function RootLayout({
         <link rel="icon" href="/main.ico" />
       </head>
       <body className={cn(
-          "min-h-screen bg-background font-sans overflow-none antialiased",
+          "min-h-screen bg-background font-sans overflow-none antialiased p-0 m-0",
           fontSans.variable
         )}>
         <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-          <div className="h-[40rem] w-screen rounded-md relative flex flex-col items-center justify-center antialiased">
-            <Navbar className="top-5 bg-transparent backdrop-blur-sm" projects={projects} />
-            {children}
-            <Footer />
-            <BackgroundBeams />
-          </div>
-          <Toaster />
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+          > 
+          <Suspense fallback={<Loading />} >
+            <div className="overscroll-x-none p-0 m-0">
+              <Navbar />
+              {children}
+              <Footer />
+              <BackgroundBeams />
+            </div>
+            <Toaster />
+          </Suspense>
         </ThemeProvider>
       </body>
     </html>

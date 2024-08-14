@@ -8,6 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import { sendMail } from "@/lib/mail-service";
 import { toast } from "@/components/ui/use-toast";
+import SlideContainer from "@/components/slide-container";
 
 export default function Page () {
     const [name, setName] = useState<string>("")
@@ -52,30 +53,33 @@ export default function Page () {
 
     return (
         <div className="flex flex-col overscroll-y-auto mx-5 md:mx-10">
-            <div className="container h-[200px] md:h-[300px]"></div>
-            <Card className="rounded-lg">
-                <CardHeader>
-                    <CardTitle className="relative z-10 text-xl md:text-2xl lg:text-3xl bg-clip-text text-transparent bg-gradient-to-b from-slate-200 to-slate-600 font-bold">CONTACT</CardTitle>
-                    <CardDescription>My skill are yours, just reach out at <b className="text-blue-900 dark:text-blue-200">thomsonnguems@gmail.com</b></CardDescription>
-                </CardHeader>
-                <CardContent className="grid grid-rows-4 gap-2">
-                    <div className="row-span-1 flex flex-col gap-2">
-                        <Label>Name</Label>
-                        <Input value={name} onChange={(e)=>setName(e.target.value)} placeholder="John Doe" className="z-10"/>
-                    </div>
-                    <div className="row-span-1 flex flex-col gap-2">
-                        <Label>Email</Label>
-                        <Input value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="johndoe@example.com" className="z-10"/>
-                    </div>
-                    <div className="row-span-2 flex flex-col gap-2">
-                        <Label>Message</Label>
-                        <Textarea value={message} onChange={(e)=>setMessage(e.target.value)} placeholder="Give more details about your inquiry here..." className="z-10"/>
-                    </div>
-                    <div className="flex flex-row gap-3 justify-end">
-                        <Button className="row-span-1 py-5 z-10" onClick={contactMe}>Submit</Button>
-                    </div>
-                </CardContent>
-            </Card>
+            <div className="flex justify-center items-center h-[70vh]">
+                <SlideContainer direction="right">
+                    <Card className="rounded-lg">
+                        <CardHeader>
+                            <CardTitle className="relative z-10 text-xl md:text-2xl lg:text-3xl bg-clip-text text-transparent bg-gradient-to-b from-blue-200 to-blue-600 font-bold">CONTACT</CardTitle>
+                            <CardDescription>My skill are yours, just reach out at <b className="text-blue-900 dark:text-blue-200">thomsonnguems@gmail.com</b></CardDescription>
+                        </CardHeader>
+                        <CardContent className="grid grid-rows-4 gap-2">
+                            <div className="row-span-1 flex flex-col gap-2">
+                                <Label>Name</Label>
+                                <Input value={name} onChange={(e)=>setName(e.target.value)} placeholder="John Doe" className="z-10"/>
+                            </div>
+                            <div className="row-span-1 flex flex-col gap-2">
+                                <Label>Email</Label>
+                                <Input value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="johndoe@example.com" className="z-10"/>
+                            </div>
+                            <div className="row-span-2 flex flex-col gap-2">
+                                <Label>Message</Label>
+                                <Textarea value={message} onChange={(e)=>setMessage(e.target.value)} placeholder="Give more details about your inquiry here..." className="z-10"/>
+                            </div>
+                            <div className="flex flex-row gap-3 justify-end">
+                                <Button className="row-span-1 py-5 z-10" onClick={contactMe}>Submit</Button>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </SlideContainer>
+            </div>
         </div>
     )
 }
