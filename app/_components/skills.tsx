@@ -138,7 +138,7 @@ const SkillSection = () => {
                         <p className="row-span-2 text-sm md:text-lg max-w-[70vw] lg:max-w-[40vw] md:p-8 text-center text-neutral-600 dark:text-neutral-400 z-10">Beyond my passion for programming, I'm an avid basketball fan, both on the court and watching the games. I'm excited to put my expertise to work and look forward to collaborating with you!</p>
                         <div className="row-span-1 flex justify-center">
                             <Button className="flex flex-row items-center text-white">
-                                <Link className="flex" href="/resume.pdf">
+                                <Link className="flex" href="/Resume2024.pdf">
                                     Dowload Resume <DownloadIcon className="ml-2" />
                                 </Link>
                             </Button>

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { FlipWords } from '@/components/ui/flip-words'
 
 const Loading = () => {
-  const words = [ "Creative Designs", "Structured Projects", "Modern Layouts", ]
+  const words = [ "Creative Designs", "Structured Projects", "Modern Layouts", "impactful solutions"]
 
   const [loading, setLoading] = useState(true);
 
@@ -20,9 +20,9 @@ const Loading = () => {
   return (
     <div className='flex flex-col gap-8 md:gap-12 py-40 px-4 justify-center items-center'>
       <div className="text-2xl md:text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-        Enjoy the
+        Enjoy my
         <FlipWords words={words} /> <br />
-        Full Stack Developer
+        as Software Developer
       </div>
     </div>
   )

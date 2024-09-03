@@ -1,36 +1,58 @@
 [
     {
+        "title": "Shonen Teez",
+        "role": "Software Developer",
+        "href": "https://shonen-teez.vercel.app",
+        "gitrep": "https://github.com/ThommysArt/Shonen-Teez",
+        "description": "Shonen Teez would be an E-shop for selling custom made anime t-shirts. The Website would handle delivery, stocks and purchases and orders. The Website is still in development and would soon feature an MMP version when the business would officially launch. The website would also boost the brand's identity on the market with its modern design and colorful look.",
+        "images": [
+            { "url": "/websites/shonen-teez/shot (1).png", "large": true },
+            { "url": "/websites/shonen-teez/shot (2).png", "large": true },
+            { "url": "/websites/shonen-teez/shot (3).png", "large": false },
+            { "url": "/websites/shonen-teez/shot (4).png", "large": false },
+            { "url": "/websites/shonen-teez/shot (5).png", "large": false },
+            { "url": "/websites/shonen-teez/shot (6).png", "large": false },
+            { "url": "/websites/shonen-teez/shot (7).png", "large": true },
+            { "url": "/websites/shonen-teez/shot (8).png", "large": true },
+            { "url": "/websites/shonen-teez/shot (9).png", "large": true },
+            { "url": "/websites/shonen-teez/shot (10).png", "large": true }
+        ],
+        "skills": [
+            { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
+            { "name": "Three.js", "url": "/icons/threejs-icon.png" },
+            { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
+            { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
+            { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
+            { "name": "Auth.js", "url": "/icons/authjs-icon.png" }
+        ],
+        "completed": false
+    },
+    {
         "title": "Sneaker Dealz",
         "role": "Scrum Master",
         "href": "https://sneaker-deals-237.onrender.com",
         "gitrep": "https://github.com/ThommysArt/Sneaker-Deals-237",
-        "description": "Developed Sneaker Dealz, an e-commerce site for selling sneakers using Next.js for fast, SEO-optimized performance. Designed a user-friendly interface with Shadcn-UI and Figma. Fully hosted and soon accepting PayPal and credit card payments. Focused on scalability, performance, and seamless navigation. Technologies: Next.js, Shadcn-UI, Figma. Methodoly: SCRUM",
+        "description": "Ths website is for an E-commerce business for retailing sneakers. Controlling orders, and improving marketing and catalog distribution was the priority here. This boosted the sales amount",
         "images": [
             { "url": "/websites/sneaker-deals/shot1.png", "large": false },
             { "url": "/websites/sneaker-deals/shot2.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot3.png", "large": false },
+            { "url": "/websites/sneaker-deals/shot3.png", "large": true },
             { "url": "/websites/sneaker-deals/shot4.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot5.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot6.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot7.png", "large": true },
+            { "url": "/websites/sneaker-deals/shot5.png", "large": false },
+            { "url": "/websites/sneaker-deals/shot6.png", "large": false },
+            { "url": "/websites/sneaker-deals/shot7.png", "large": false },
             { "url": "/websites/sneaker-deals/shot8.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot9.png", "large": false },
+            { "url": "/websites/sneaker-deals/shot9.png", "large": true },
             { "url": "/websites/sneaker-deals/shot10.png", "large": false },
             { "url": "/websites/sneaker-deals/shot11.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot12.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot13.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot14.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot15.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot16.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot17.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot18.png", "large": true }
+            { "url": "/websites/sneaker-deals/shot12.png", "large": true }
         ],
         "skills": [
             { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
             { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
             { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
             { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
-            { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" }
+            { "name": "Clerk", "url": "/icons/clerk-icon.ico" }
         ],
         "completed": true
     },
@@ -39,7 +61,7 @@
         "role": "Scrum Master",
         "href": "https://linger-client.vercel.app",
         "gitrep": "https://github.com/ThommysArt/Linger---ExpressJS-NextJS",
-        "description": "Developed Linger a language learning web app with a REST architecture. Used Express.js for the backend API and Next.js for the frontend. The app features interactive quizzes, and lessons. Currently hosted and under testing and content management. Ensured robust data handling, responsive design, and scalability. Technologies: Express.js, Next.js, Postgresql. Methodology: SCRUM",
+        "description": "As the Project Manager for this school project, I decided to use the SCRUM methodology to fit ourproject team, skill level, REST API structure and time.This was a school project with the aim of giving a platform to learn Cameroonian mother-thongs. For thesake of development, the MVP version only features a English and French.",
         "images": [
             { "url": "/websites/linger/shot1.png", "large": false },
             { "url": "/websites/linger/shot2.png", "large": false },
@@ -59,7 +81,8 @@
             { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
             { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
             { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
-            { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" }
+            { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" },
+            { "name": "Clerk", "url": "/icons/clerk-icon.ico" }
         ],
         "completed": true
     },
@@ -68,7 +91,7 @@
         "role": "Sole Entrepreneur",
         "href": "",
         "gitrep": "https://github.com/ThommysArt/Tech-Store-Django-Rest-React",
-        "description": "Developed Thommy's Store, an e-commerce site for tech products, using Django REST for the backend and ReactJS for the frontend. Created a robust, scalable platform supporting various product categories. Emphasized seamless user experience. Utilized AGILE methodology. Technologies: Django REST, ReactJS",
+        "description": "Developed Thommy's Store, an e-commerce site for tech products, using Django REST for the backend and ReactJS for the frontend. Created a robust, scalable platform supporting various product categories. Emphasized seamless user experience. Utilized AGILE methodology.",
         "images": [
             { "url": "/websites/thommy-store/shot1.png", "large": true },
             { "url": "/websites/thommy-store/shot2.png", "large": true },
@@ -90,7 +113,7 @@
         "role": "Sole Entrepreneur",
         "href": "",
         "gitrep": "https://github.com/ThommysArt/Nester-client--NextJS",
-        "description": "Developing Nester, a property rental service focused on housing rentals. It is a full SaaS product still in development following an extended PERN stack with NextJS added for SEO optimization and SSR. Technologies: Next.js, Acernity-ui, React.js, Express.js, Postgrsql.  Methodoly: SCRUM",
+        "description": "Nester is a project meant to overtake Airbnb in the rental marketplace. The website is meant to considerably the advertisement and marketing of renta properties in Africa (where Airbnb has a low market share) while managing bookings, listings and payments for the Landlords.",
         "images": [
             { "url": "/websites/nester/shot1.png", "large": false },
             { "url": "/websites/nester/shot2.png", "large": false },
@@ -104,7 +127,8 @@
             { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
             { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
             { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
-            { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" }
+            { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" },
+            { "name": "Clerk", "url": "/icons/clerk-icon.ico" }
         ],
         "completed": false
     }
