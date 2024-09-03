@@ -115,12 +115,12 @@
         "gitrep": "https://github.com/ThommysArt/Nester-client--NextJS",
         "description": "Nester is a project meant to overtake Airbnb in the rental marketplace. The website is meant to considerably the advertisement and marketing of renta properties in Africa (where Airbnb has a low market share) while managing bookings, listings and payments for the Landlords.",
         "images": [
-            { "url": "/websites/nester/shot1.png", "large": false },
-            { "url": "/websites/nester/shot2.png", "large": false },
-            { "url": "/websites/nester/shot3.png", "large": false },
-            { "url": "/websites/nester/shot4.png", "large": true },
-            { "url": "/websites/nester/shot5.png", "large": false },
-            { "url": "/websites/nester/shot6.png", "large": true }
+            { "url": "/websites/nester/tag1.png", "large": false },
+            { "url": "/websites/nester/tag2.png", "large": false },
+            { "url": "/websites/nester/tag3.png", "large": false },
+            { "url": "/websites/nester/tag4.png", "large": true },
+            { "url": "/websites/nester/tag5.png", "large": false },
+            { "url": "/websites/nester/tag6.png", "large": true }
         ],
         "skills": [
             { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
