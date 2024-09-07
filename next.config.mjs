@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: [
-        "api.microlink.io", // Microlink Image Preview
-      ],
       remotePatterns: [
         {
           protocol: "https",
@@ -21,6 +18,10 @@ const nextConfig = {
           protocol: "https",
           hostname: "drive.google.com"
         },
+        {
+          protocol: "https",
+          hostname: "api.microlink.io"
+        }
       ]
     },
   };

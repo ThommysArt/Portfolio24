@@ -129,7 +129,7 @@ const SkillSection = () => {
     return (
         <section className="container py-8 md:py-24 p-4">
             <div className="grid grid-flow-row lg:grid-flow-col lg:grid-cols-2">
-                <SlideContainer direction="left">
+                <SlideContainer>
                     <div className="row-span-7 lg:col-span-1 grid grid-flow-rows grid-rows-6 gap-4 p-4 justify-center">
                         <h3 className="row-span-1 relative z-10 text-2xl md:text-4xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-blue-200 to-blue-600  text-center font-sans font-bold">
                         ABOUT ME
@@ -145,7 +145,7 @@ const SkillSection = () => {
                         </div>
                     </div>
                 </SlideContainer>
-                <SlideContainer direction="right">
+                <SlideContainer>
                     <div className="row-span-6 lg:col-span-1 flex flex-col p-4">
                         <h3 className="relative z-10 text-2xl md:text-4xl lg:text-6xl mb-2 md:mb-4 bg-clip-text text-transparent bg-gradient-to-b from-blue-200 to-blue-600  text-center font-sans font-bold">
                         SKILLS

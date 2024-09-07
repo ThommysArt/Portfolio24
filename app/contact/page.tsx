@@ -54,7 +54,7 @@ export default function Page () {
     return (
         <div className="flex flex-col overscroll-y-auto mx-5 md:mx-10">
             <div className="flex justify-center items-center h-[70vh]">
-                <SlideContainer direction="right">
+                <SlideContainer>
                     <Card className="rounded-lg">
                         <CardHeader>
                             <CardTitle className="relative z-10 text-xl md:text-2xl lg:text-3xl bg-clip-text text-transparent bg-gradient-to-b from-blue-200 to-blue-600 font-bold">CONTACT</CardTitle>

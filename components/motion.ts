@@ -23,14 +23,33 @@ export const slideAnimation = (direction: string) => {
   };
 };
 
+export const SlideUpAnimation = () => {
+  return {
+    initial: {
+      y: 100,
+      opacity: 0,
+      transition: {...transition, delay: 0.5}
+    },
+    whileInView: {
+      y: 0,
+      opacity: 1,
+      transition: {...transition, delay: 0.5}
+    },
+    exit: {
+      y: 100,
+      transition: {...transition, delay: 0}
+    }
+  }
+}
+
 export const fadeAnimation = {
   initial: {
     opacity: 0,
-    transition: { ...transition, delay: 0.5 },
+    transition: { ...transition, delay: 0 },
   },
   animate: {
     opacity: 1,
-    transition: { ...transition, delay: 0 },
+    transition: { ...transition, delay: 0.5 },
   },
   exit: {
     opacity: 0,

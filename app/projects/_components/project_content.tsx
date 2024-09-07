@@ -18,7 +18,7 @@ interface ProjectContentProps {
 
 const ProjectContent: React.FC<ProjectContentProps> = ({project}) => {
     return (
-        <SlideContainer direction="right">
+        <SlideContainer>
             <Card>
                 <CardHeader className="flex flex-row gap-4 justify-center align-center items-center">
                     <CardTitle className="relative z-10 text-xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-b from-blue-100 to-blue-800 dark:to-blue-400 uppercase text-center font-bold">

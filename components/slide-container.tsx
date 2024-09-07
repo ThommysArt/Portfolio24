@@ -2,12 +2,15 @@
 
 import { AnimatePresence, motion } from 'framer-motion'
 import React, { ReactNode } from 'react'
-import { slideAnimation } from './motion'
+import { fadeAnimation, SlideUpAnimation } from './motion'
 
-const SlideContainer = ({children, direction}: {children:ReactNode, direction:string}) => {
+const SlideContainer = ({children}: {children:ReactNode}) => {
   return (
     <AnimatePresence>
-        <motion.div {...slideAnimation(direction)}>
+        <motion.div 
+          initial={{ y: 100, opacity: 0}}
+          animate={{ y: 0, opacity: 1, transition: { delay: 0.5}}}
+        >
             {children}
         </motion.div>
     </AnimatePresence>

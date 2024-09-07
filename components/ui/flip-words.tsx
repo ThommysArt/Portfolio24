@@ -80,6 +80,7 @@ export const FlipWords = ({
                 {letter}
               </motion.span>
             ))}
+            {" "}
           </span>
         ))}
       </motion.div>
