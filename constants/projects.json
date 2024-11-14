@@ -1,58 +1,81 @@
 [
     {
+        "title": "Unihive ",
+        "role": "Freelance",
+        "href": "https://unihive-v1.vercel.app",
+        "description": "Unihive is a platform targeting univeristy campuses. It features a service marketplace, ride-sharing, campus events and study groups.",
+        "images": [
+            { "url": "https://drive.google.com/uc?export=view&id=/1-i3xg9ovliM4tY3r0pwrUnB2pPRFt1i3", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1YiNSs-SPn4rNt-n-24xJAMGG0aDmQWli", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1d9AmJ9SfOlIbtlP10zfzi5KTR6ReH1SS", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1VbETpxnS5-4c_rnBKbVrwrKzfG5SOzSG", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1GVGQnV-otygFo3ehitEAdDVUuNvZS4Ll", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1vVj-exVmwqowbkPEbluvejdSmCNA_ZCr", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/10KQAb24c7F5lvC47mcCE14q5i976DFFX", "large": true }
+        ],
+        "skills": [
+            { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
+            { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
+            { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
+            { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
+            { "name": "Auth.js", "url": "https://drive.google.com/uc?export=view&id=/1wE0aa2r58F-iZ4tI5BHkaW1EkkT69cSH" }
+        ],
+        "completed": false
+    },
+    {
         "title": "Shonen Teez",
-        "role": "Software Developer",
+        "role": "Freelance",
         "href": "https://shonen-teez.vercel.app",
         "gitrep": "https://github.com/ThommysArt/Shonen-Teez",
         "description": "Shonen Teez would be an E-shop for selling custom made anime t-shirts. The Website would handle delivery, stocks and purchases and orders. The Website is still in development and would soon feature an MMP version when the business would officially launch. The website would also boost the brand's identity on the market with its modern design and colorful look.",
         "images": [
-            { "url": "/websites/shonen-teez/shot (1).png", "large": true },
-            { "url": "/websites/shonen-teez/shot (2).png", "large": true },
-            { "url": "/websites/shonen-teez/shot (3).png", "large": false },
-            { "url": "/websites/shonen-teez/shot (4).png", "large": false },
-            { "url": "/websites/shonen-teez/shot (5).png", "large": false },
-            { "url": "/websites/shonen-teez/shot (6).png", "large": false },
-            { "url": "/websites/shonen-teez/shot (7).png", "large": true },
-            { "url": "/websites/shonen-teez/shot (8).png", "large": true },
-            { "url": "/websites/shonen-teez/shot (9).png", "large": true },
-            { "url": "/websites/shonen-teez/shot (10).png", "large": true }
+            { "url": "https://drive.google.com/uc?export=view&id=/1bXXDrYMQfKwRon5EtWkWn1ZP8rM9Tpyf", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1kuP8KuUNN3i3LHhD-PDHEO_mefjzjdbE", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1O8GukDtrB8eCyetG5oGfgamKRQusPy_u", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1dPslWbkqgnUuCIkiJ6LT4gdUN6nQEdxe", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1rDAoJGuW1b1OFppAyhJu95aL3KGw2Kcj", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1PASjvZiZ_WUw8CoSQLkm9jhJ9BUjj66z", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1M6piTrf31m-gJDXbz77se6l3fTE74hGk", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1bMUYQDYBiR8ZznKE3qogdFxrtXshUUap", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1kY2l9cSkLikd5B1b9sIGg5spW377BzWO", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1ozdR6FT0Wr9IRrf8Q-yombvlb5s1QiO9", "large": true }
         ],
         "skills": [
             { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
-            { "name": "Three.js", "url": "/icons/threejs-icon.png" },
+            { "name": "Three.js", "url": "https://drive.google.com/uc?export=view&id=/1pP01OZdVWJI21vNkkO0e4SSd38VavjN8" },
             { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
             { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
             { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
-            { "name": "Auth.js", "url": "/icons/authjs-icon.png" }
+            { "name": "Auth.js", "url": "https://drive.google.com/uc?export=view&id=/1wE0aa2r58F-iZ4tI5BHkaW1EkkT69cSH" }
         ],
         "completed": false
     },
     {
         "title": "Sneaker Dealz",
-        "role": "Scrum Master",
+        "role": "Freelance",
         "href": "https://sneaker-deals-237.onrender.com",
         "gitrep": "https://github.com/ThommysArt/Sneaker-Deals-237",
         "description": "Ths website is for an E-commerce business for retailing sneakers. Controlling orders, and improving marketing and catalog distribution was the priority here. This boosted the sales amount",
         "images": [
-            { "url": "/websites/sneaker-deals/shot1.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot2.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot3.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot4.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot5.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot6.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot7.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot8.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot9.png", "large": true },
-            { "url": "/websites/sneaker-deals/shot10.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot11.png", "large": false },
-            { "url": "/websites/sneaker-deals/shot12.png", "large": true }
+            { "url": "https://drive.google.com/uc?export=view&id=/1xJq46s-44GbdCURklnE6ePi3r9KszHjA", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1zgU9e6tPD2lyuQ3kkuX72NL1MIVYPQYx", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/12VUMpIzlnK_JWWCpla5CpmeJelsSeWh7", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1Igut1Obf4c0mQv442PlxjzrQO62lWY3h", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1dOLpg7DCvyNoo6g8x3Jzm2KfWVUDi2du", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1Tr5kQfG5rP3NYuWVmdAovh44tqhKBwm0", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1e9Quoxlc7P3jjk3FdcRQquVSHlaoDOwF", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1kkvT_lY1g-ygLLAomqTFJJIA0rAIalLe", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1FnYuM-4mBRfElBTOpxapLmz1ArzQVAFN", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1FSocyg3RUZ6eOCngN5rvNnQNV_TNy1ni", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1-tgMQg6eUlgOqEi_IlpB1_WXN7KCE-GP", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1_uFhndpETBdR1yW1Y9VXH17zb8E8wehj", "large": true }
         ],
         "skills": [
             { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
             { "name": "Typscript", "url": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
             { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
             { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
-            { "name": "Clerk", "url": "/icons/clerk-icon.ico" }
+            { "name": "Clerk", "url": "https://drive.google.com/uc?export=view&id=/1kCf2XPioH5TZUszuD8c3SC5Utmb3g4i9" }
         ],
         "completed": true
     },
@@ -63,17 +86,17 @@
         "gitrep": "https://github.com/ThommysArt/Linger---ExpressJS-NextJS",
         "description": "As the Project Manager for this school project, I decided to use the SCRUM methodology to fit ourproject team, skill level, REST API structure and time.This was a school project with the aim of giving a platform to learn Cameroonian mother-thongs. For thesake of development, the MVP version only features a English and French.",
         "images": [
-            { "url": "/websites/linger/shot1.png", "large": false },
-            { "url": "/websites/linger/shot2.png", "large": false },
-            { "url": "/websites/linger/shot3.png", "large": true },
-            { "url": "/websites/linger/shot4.png", "large": false },
-            { "url": "/websites/linger/shot5.png", "large": false },
-            { "url": "/websites/linger/shot6.png", "large": true },
-            { "url": "/websites/linger/shot7.png", "large": true },
-            { "url": "/websites/linger/shot8.png", "large": true },
-            { "url": "/websites/linger/shot9.png", "large": false },
-            { "url": "/websites/linger/shot10.png", "large": false },
-            { "url": "/websites/linger/shot11.png", "large": true }
+            { "url": "https://drive.google.com/uc?export=view&id=/10AlUDLKRPHRQ6Dk6bQmxyYrL5IFK0Za-", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1BRPkiGcyeULkZCUefz8AlJ4UqmsVBR7b", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1Traq-BFE_7wTj-c-MmZ_e69iSCAnfZZQ", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/12gnuakP2Wxil4lRZfoiX-lzzrxKF6l_D", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1a-ITwzESGzcSKFhLfWVivdYWVPd2oR4K", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1Qvj1WBdzf-rVPKKZgTIpAIW3rUEz9SKf", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1wSBZCUXNLnuME18Fo1eYBqD2MSdw4s-Y", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/16Eb2rM9hL7dtafEHZY9XmvmZMEGtpc9A", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1hGhZY27BL4PoK7jF6v1t64cseyYyBJ2P", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1vvSf2ZqXyI9vnei003oqqkIpJyR9Fe1J", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1bcpcCO6XLwPRLYyBrGLKxfIapeaK66IW", "large": true }
         ],
         "skills": [
             { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
@@ -82,31 +105,9 @@
             { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
             { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
             { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" },
-            { "name": "Clerk", "url": "/icons/clerk-icon.ico" }
+            { "name": "Clerk", "url": "https://drive.google.com/uc?export=view&id=/1kCf2XPioH5TZUszuD8c3SC5Utmb3g4i9" }
         ],
         "completed": true
-    },
-    {
-        "title": "Thommy Store",
-        "role": "Sole Entrepreneur",
-        "href": "",
-        "gitrep": "https://github.com/ThommysArt/Tech-Store-Django-Rest-React",
-        "description": "Developed Thommy's Store, an e-commerce site for tech products, using Django REST for the backend and ReactJS for the frontend. Created a robust, scalable platform supporting various product categories. Emphasized seamless user experience. Utilized AGILE methodology.",
-        "images": [
-            { "url": "/websites/thommy-store/shot1.png", "large": true },
-            { "url": "/websites/thommy-store/shot2.png", "large": true },
-            { "url": "/websites/thommy-store/shot3.png", "large": true },
-            { "url": "/websites/thommy-store/shot4.png", "large": true },
-            { "url": "/websites/thommy-store/shot5.png", "large": true },
-            { "url": "/websites/thommy-store/shot6.png", "large": true }
-        ],
-        "skills": [
-            { "name": "React.js", "url": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" },
-            { "name": "Django REST", "url": "https://img.icons8.com/?size=100&id=LPmcJ9e0FU7K&format=png&color=000000" },
-            { "name": "Javascript", "url": "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" },
-            { "name": "CSS", "url": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000" }
-        ],
-        "completed": false
     },
     {
         "title": "Nester",
@@ -115,12 +116,12 @@
         "gitrep": "https://github.com/ThommysArt/Nester-client--NextJS",
         "description": "Nester is a project meant to overtake Airbnb in the rental marketplace. The website is meant to considerably the advertisement and marketing of renta properties in Africa (where Airbnb has a low market share) while managing bookings, listings and payments for the Landlords.",
         "images": [
-            { "url": "/websites/nester/tag1.png", "large": false },
-            { "url": "/websites/nester/tag2.png", "large": false },
-            { "url": "/websites/nester/tag3.png", "large": false },
-            { "url": "/websites/nester/tag4.png", "large": true },
-            { "url": "/websites/nester/tag5.png", "large": false },
-            { "url": "/websites/nester/tag6.png", "large": true }
+            { "url": "https://drive.google.com/uc?export=view&id=/1sMaVZnpiaO5FP3r2HaKChPDWzlUx70h1", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1BCZTIjbOFecYSChMxHlMidhgtizuI-Xr", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1-RuUgEUbRU_ukJGVgEdtuQy3Flt_PFp6", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1VZFxiu1uFMbZTGaFHtJJxINDoLCCbCkM", "large": true },
+            { "url": "https://drive.google.com/uc?export=view&id=/1OTxxWOvd53LvyWBZ77cAY5Oz7Icb-NiE", "large": false },
+            { "url": "https://drive.google.com/uc?export=view&id=/1sU4HYweUsClA5P2J5ZwzWK-D7pgNMPOe", "large": true }
         ],
         "skills": [
             { "name": "Next.js", "url": "https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" },
@@ -128,7 +129,7 @@
             { "name": "Prisma", "url": "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000" },
             { "name": "Tailwindcss", "url": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
             { "name": "PostgreSQL", "url": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000" },
-            { "name": "Clerk", "url": "/icons/clerk-icon.ico" }
+            { "name": "Clerk", "url": "https://drive.google.com/uc?export=view&id=/1kCf2XPioH5TZUszuD8c3SC5Utmb3g4i9" }
         ],
         "completed": false
     }
